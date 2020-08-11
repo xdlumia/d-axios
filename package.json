@@ -1,6 +1,6 @@
 {
   "name": "d-axios",
-  "version": "0.1.01",
+  "version": "0.0.01",
   "author": "web.王晓冬",
   "description": "d-axios",
   "main": "package/index.js",
