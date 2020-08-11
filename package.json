@@ -1,0 +1,37 @@
+{
+  "name": "d-axios",
+  "version": "0.1.01",
+  "author": "web.王晓冬",
+  "description": "d-axios",
+  "main": "package/index.js",
+  "keyword": "vue basic",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "b": "vue-cli-service build --target lib --name d-axios --dest lib packages/index.js",
+    "pub": "node shell"
+  },
+  "files": [
+    "package"
+  ],
+  "dependencies": {
+    "axios": "^0.18.0",
+    "core-js": "^3.6.4",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "element-ui": "^2.13.0",
+    "@vue/cli-plugin-babel": "~4.2.0",
+    "@vue/cli-service": "~4.2.0",
+    "readline-sync": "1.4.9",
+    "shelljs": "^0.8.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}
