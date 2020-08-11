@@ -2,7 +2,7 @@
  * @Author: web.王晓冬
  * @Date: 2020-03-19 10:29:17
  * @LastEditors: web.王晓冬
- * @LastEditTime: 2020-08-11 09:56:52
+ * @LastEditTime: 2020-08-11 10:12:25
  * @Description: file content
  */
 <template>
@@ -36,7 +36,6 @@ export default {
     }
   },
   created() {
-
     this.$api.mockGetUser().then(res=>{
       console.log(res);
     })
